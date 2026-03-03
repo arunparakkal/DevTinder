@@ -12,7 +12,8 @@ const app = express();
   })
   app.delete("/user", (req, res) => {
      res.send("user is deleted");
-  })
+  }) 
+  console.log("hellow world");
    app.use("/user",(req, res) => {
     res.send("this is from app.use!!!!");
  })
