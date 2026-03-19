@@ -9,14 +9,13 @@
   - PATCH /Profile/password
 
  ## connectionRequistRouter
-  - POST /requist/send/intrested
-  - POST /requist/send/ignored  
-  - POST /requist/send/accepted
-  - POST /requist/send/rejected
+  - POST /requist/send/status/userId
+  - POST /requist/view/status/requestId 
+
 
  ## userRoute
+  - GET /user/requst/recieved
   - GET /user/connection
-  - GET /user/requst
   - GET /user/feed :- see the other users of profile
 
   status: intrested ignored accecpted rejected

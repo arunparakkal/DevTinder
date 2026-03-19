@@ -50,6 +50,10 @@ const userSchema = new mongoose.Schema({
         enum : ["male", "female", "others"]
 
     },
+    about : {
+        type : String,
+        default : "this is default about"
+    },
     skill : {
         type : [String]
     },
